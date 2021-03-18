@@ -1,0 +1,16 @@
+@import url(./__check/button__check.css);
+@import url(./__hide/button__hide.css);
+@import url(./button-show/button-show.css);
+@import url(./__more/button__more.css);
+
+.button {
+  background-color: #14c4e6;
+  color: #FFF;
+  border: none;
+  border-radius: 10px;
+  padding: 6px;
+}
+
+.button:hover{
+  background-color: #186ac2;
+}

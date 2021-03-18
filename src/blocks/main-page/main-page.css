@@ -1,0 +1,12 @@
+.main-page{
+  background-color: #FFF;
+  color: #000;
+  margin: 0 auto;
+  max-width: 1920px;
+  min-width: 600px;
+  height: 100vh;
+  font-family: Montserrat,Arial,sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+

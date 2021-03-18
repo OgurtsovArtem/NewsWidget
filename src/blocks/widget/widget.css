@@ -1,0 +1,13 @@
+@import url(./__container/widget__container.css);
+@import url(./__footer/widget__footer.css);
+@import url(./__form/widget__form.css);
+
+.widget {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}

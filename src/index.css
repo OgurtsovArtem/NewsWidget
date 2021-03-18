@@ -1,0 +1,54 @@
+/* BASE COMPONENTS */
+@import url(./vendor/fonts.css);
+@import url(./vendor/normalize.css);
+/* BLOCKS */
+@import url(./blocks/news-list/news-list.css);
+@import url(./blocks/news-card/news-card.css);
+@import url(./blocks/main-page/main-page.css);
+@import url(./blocks/widget/widget.css);
+@import url(./blocks/button/button.css);
+@import url(./blocks/disabled/disabled.css);
+
+/* MAIN STYLES */
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+html {
+  font-size: 16px;
+}
+body {
+  margin: 0 auto;
+  font-family: CormorantUnicase, Montserrat, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+ul {
+ list-style-type: none;
+ margin: 0;
+ padding: 0;
+}
+li {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+button {
+  outline: 0;
+  cursor: pointer;
+}
+
+h1,h2,h3,h4,a {
+  text-rendering: optimizeLegibility;
+}

@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'CormorantUnicase';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/CormorantUnicase-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style:  normal;
+  font-weight: 400;
+  src: url("./fonts/Montserrat-Regular.woff2") format("woff2");
+}

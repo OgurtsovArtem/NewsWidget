@@ -1,0 +1,5 @@
+.button-show__img{
+  width: 100%;
+  height: 100%;
+  background-image: url('../../../../images/message.svg');
+}

@@ -1,0 +1,13 @@
+@import url(./__container/news-list__container.css);
+
+.news-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  max-width: 500px;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}

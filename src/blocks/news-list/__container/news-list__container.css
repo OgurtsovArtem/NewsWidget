@@ -1,0 +1,8 @@
+.news-list__container {
+  overflow: hidden;
+  overflow-y: scroll;
+ -ms-overflow-style: none;
+}
+.news-list__container::-webkit-scrollbar {
+   width: 0;
+}

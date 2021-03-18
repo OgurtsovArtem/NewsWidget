@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name='description' content="Widget for counting messages in the news feed">
+  <meta name="author" content="Артем Огурцов">
+  <title>News Widget</title>
+  <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.css %>">
+</head>
+<body class="main-page">
+
+    <section class="news-list">
+      <h1 class="title" >News Widget</h1>
+      <div class="news-list__container"></div>
+    </section>
+
+  <script src="<%= htmlWebpackPlugin.files.js %>"></script>
+</body>
+</html>

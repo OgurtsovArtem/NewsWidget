@@ -1,0 +1,17 @@
+@import url(./-/widget__form-author.css);
+@import url(./-/widget__form-info.css);
+@import url(./-/widget__form-link.css);
+@import url(./-/widget__form-text.css);
+@import url(./-/widget__form-title.css);
+@import url(./-/widget__form-inputGroup.css);
+
+.widget__form {
+  width: 100%;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+}
+
+.widget__form:nth-last-child(1){
+  margin-bottom: 62px;
+}
